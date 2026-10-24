@@ -4,7 +4,7 @@
 
 ## 交互学习页
 
-**在线体验：[Java → Go 交互学习实验室](https://hwj123hwj.github.io/go-learning-for-java-dev/)**
+**在线体验：[Java → Go 交互学习实验室](https://nightgopher.github.io/go-learning-for-java-dev/)**
 
 用网页先观察，再回到源码练习：九阶段课程各有对应实验，覆盖函数、API 分层、JWT、gRPC、微服务、Channel、限流、错误链和 SSE；支持场景切换与当前浏览器的学习进度。
 

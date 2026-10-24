@@ -41,7 +41,7 @@ node --check web/app.mjs
 
 GitHub Pages 由 `.github/workflows/pages.yml` 部署：推送 main 后先运行模型与课程链接测试，再上传站点资源到 Pages。PR 只验证，不部署。
 
-在线地址：<https://hwj123hwj.github.io/go-learning-for-java-dev/>。
+在线地址：<https://nightgopher.github.io/go-learning-for-java-dev/>。
 
 ## 自托管（nginx）
 

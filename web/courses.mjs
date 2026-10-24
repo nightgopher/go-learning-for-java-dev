@@ -1,4 +1,4 @@
-export const repository = 'https://github.com/hwj123hwj/go-learning-for-java-dev';
+export const repository = 'https://github.com/nightgopher/go-learning-for-java-dev';
 export const courses = [
   { id:'01', directory:'01-quickstart', name:'基础语法', sub:'熟悉语言的表达方式', title:'从熟悉的 Java，走进 Go。', description:'变量、函数、结构体和接口。用七个可独立运行的脚本，建立 Go 的第一层直觉。', bridge:'从 class 和显式 implements，过渡到 struct、方法与隐式接口；用组合组织能力。', goal:'跑完七个脚本；不看源码写一个实现接口的结构体，并解释多返回值。', command:'cd 01-quickstart\ngo run 01_hello.go', exercise:'01-quickstart/README.md', solution:null },
   { id:'02', directory:'03-user-api-advanced', name:'第一个 Web API', sub:'Gin · GORM · PostgreSQL', title:'让一个 HTTP 请求，走完整条链路。', description:'从请求参数到数据库记录，用用户管理 API 理解 Go Web 开发的基本结构（与 03 课同一项目：本课只看 CRUD 与分层，先不碰 JWT）。', bridge:'将 Spring MVC 的控制器和数据访问经验迁移到 Gin 与 GORM，关注依赖如何显式传入。', goal:'按课程 README 用 docker compose 或 config.yaml 准备 PostgreSQL，跑通服务；经注册/登录后完成增删改查，能追踪一次请求穿过 Controller→Service→Repository 的数据流。', command:'cd 03-user-api-advanced\n# 按 README 准备 PostgreSQL（docker compose up 或改 config.yaml）\ngo run .', exercise:'03-user-api-advanced/README.md', solution:null },
