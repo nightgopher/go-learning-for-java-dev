@@ -36,7 +36,7 @@ Java 后端出身，已在维护生产级 Go 服务（LLM 网关、agent 框架�
 
 ### 源码阅读路线（阶梯）
 
-1. **现在**：自己的 litellm-gateway / pi-go——期末考试
+1. **现在**：自己的 easygateway / pi-go——期末考试
 2. **下一步**：小而精、能整个装进脑子的经典：
    - groupcache（~4k 行，golang 官方）——singleflight 一词的出处，和 07 模块缓存击穿题直接呼应
    - chi（~1.5k 行）——路由 + 中间件链的工业级实现，对照 08 的裸 net/http

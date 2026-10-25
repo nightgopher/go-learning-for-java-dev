@@ -52,8 +52,8 @@ python3 -m http.server 4174 --bind 127.0.0.1 --directory web
 
 这两个模块对应真实工作里最常用、但前七个模块没覆盖的能力：
 
-- **08-engineering**：真实 Go 项目（如本工作区的 litellm-gateway、pi-go）都是 `cmd/` + `internal/` 布局、接口拆分、依赖注入、测试文件占三分之一。这一模块把这些工程习惯单独练一遍，其中 `02-project-layout` 是一个完整的 stdlib `net/http` todo 服务。
-- **09-streaming-proxy**：LLM 网关的日常 = SSE 流式转发 + `http.Client` 超时/重试/fallback。这个模块做一个能跑的迷你网关（带 mock 上游，离线可玩），做完回头看 litellm-gateway 的源码会顺畅很多。
+- **08-engineering**：真实 Go 项目（如本工作区的 easygateway、pi-go）都是 `cmd/` + `internal/` 布局、接口拆分、依赖注入、测试文件占三分之一。这一模块把这些工程习惯单独练一遍，其中 `02-project-layout` 是一个完整的 stdlib `net/http` todo 服务。
+- **09-streaming-proxy**：LLM 网关的日常 = SSE 流式转发 + `http.Client` 超时/重试/fallback。这个模块做一个能跑的迷你网关（带 mock 上游，离线可玩），做完回头看 easygateway 的源码会顺畅很多。
 
 ## 进度清单
 
